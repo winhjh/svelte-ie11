@@ -31,7 +31,7 @@
 <fieldset>
     <figure>{title}</figure>
 
-    <BasicImage {image} activeCondition={() => isSaracenActive(image.src)}/>
+    <BasicImage {...image} activeCondition={() => isSaracenActive(image.src)}/>
 
     <button
             on:click={handleClick}

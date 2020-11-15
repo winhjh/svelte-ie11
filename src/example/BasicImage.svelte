@@ -1,9 +1,6 @@
 <script>
-  export let image, activeCondition;
-  const src = image.src
-  const alt = image.alt
+  export let src, alt, activeCondition;
   const active = activeCondition()
-  console.log(image)
   console.log(active)
 </script>
 

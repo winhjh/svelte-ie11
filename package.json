@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app-ie11",
+  "name": "svelte-ie11-template",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
